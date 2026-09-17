@@ -149,5 +149,5 @@ MIT — veja [LICENSE](LICENSE).
 ---
 
 <p align="center">
-  <sub>feito com 🧹 por <a href="#">pwd404</a></sub>
+  <sub> <a href="#">pwd404</a></sub>
 </p>
