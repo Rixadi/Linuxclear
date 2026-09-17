@@ -41,7 +41,7 @@
 
 ## O que é
 
-**linuxclear** detecta sozinho seu gerenciador de pacotes (`pacman`, `apt`, `dnf`, `zypper`, `apk`, `xbps`) e limpa o que já não serve mais no seu sistema ( cache velho, pacotes órfãos, logs, lixeira — com um menu interativo colorido em vez de uma pilha de comandos pra decorar)
+**linuxclear** detecta sozinho seu gerenciador de pacotes (`pacman`, `apt`, `dnf`, `zypper`, `apk`, `xbps`) e limpa o que já não serve mais no seu sistema ( cache velho, pacotes órfãos, logs, lixeira com um menu interativo colorido em vez de uma pilha de comandos pra decorar)
 
 ```
 ┌─────────────────────────────────────────────┐
@@ -72,7 +72,7 @@ Isso abre o menu interativo:
 
 ```
 ╔═══════════════════════════════════════════════╗
-║   linuxclear — o que vamos limpar hoje?        ║
+║   linuxclear o que vamos limpar hoje?        ║
 ╠═══════════════════════════════════════════════╣
 ║  [1] Limpeza leve                              ║
 ║      cache antigo, órfãos, journal, /tmp       ║
@@ -118,15 +118,15 @@ Ou direto por flags, sem menu:
 | openSUSE | zypper | ~ |
 | Alpine | apk | ~ |
 | Void Linux | xbps | ~ |
-| Gentoo, NixOS, outras | — | ✘ *(limpeza genérica ainda funciona)* |
+| Gentoo, NixOS, outras |  | ✘ *(limpeza genérica ainda funciona)* |
 
-> Testou numa distro marcada com `~`? Abra uma [issue](../../issues) contando o resultado — isso ajuda a fechar o suporte de verdade.
+> Testou numa distro marcada com `~`? Abra uma [issue](../../issues) contando o resultado  isso ajuda a fechar o suporte de verdade.
 
 ---
 
 ## ⚠️ Aviso
 
-Este script roda comandos com `sudo` em diretórios e pacotes do sistema. Dê uma lida no código antes de rodar em produção. Ele nunca roda como root direto — pede privilégio só quando precisa, e avisa quando pula alguma etapa por falta de `sudo`.
+Este script roda comandos com `sudo` em diretórios e pacotes do sistema. Dê uma lida no código antes de rodar em produção. Ele nunca roda como root direto, pede privilégio só quando precisa, e avisa quando pula alguma etapa por falta de `sudo`.
 
 ## Contribuindo
 
@@ -144,7 +144,7 @@ Este script roda comandos com `sudo` em diretórios e pacotes do sistema. Dê um
 
 ## Licença
 
-MIT — veja [LICENSE](LICENSE).
+MIT  veja [LICENSE](LICENSE).
 
 ---
 
