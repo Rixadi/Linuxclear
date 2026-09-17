@@ -41,7 +41,7 @@
 
 ## O que é
 
-**linuxclear** detecta sozinho seu gerenciador de pacotes (`pacman`, `apt`, `dnf`, `zypper`, `apk`, `xbps`) e limpa o que já não serve mais no seu sistema — cache velho, pacotes órfãos, logs, lixeira — com um menu interativo colorido em vez de uma pilha de comandos pra decorar.
+**linuxclear** detecta sozinho seu gerenciador de pacotes (`pacman`, `apt`, `dnf`, `zypper`, `apk`, `xbps`) e limpa o que já não serve mais no seu sistema ( cache velho, pacotes órfãos, logs, lixeira — com um menu interativo colorido em vez de uma pilha de comandos pra decorar)
 
 ```
 ┌─────────────────────────────────────────────┐
